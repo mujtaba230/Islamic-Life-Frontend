@@ -1,0 +1,121 @@
+/* Signup Page Container */
+.signup-container {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 5vh auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .signup-container h2 {
+    color: #3498db;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form .form-group {
+    margin-bottom: 18px;
+    text-align: left;
+  }
+  
+  .signup-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .signup-form input::placeholder {
+    color: #bbb;
+  }
+  
+  /* Password Visibility Toggle */
+  .password-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .password-wrapper input {
+    width: 100%;
+    padding-right: 50px;
+  }
+  
+  .password-wrapper .toggle-password {
+    background: none;
+    border: none;
+    color: #3498db;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  /* Signup Button */
+  .signup-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .signup-button:hover {
+    background-color: #2980b9;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Login Link */
+  .login-link {
+    margin-top: 15px;
+  }
+  
+  .login-link a {
+    color: #f472b6;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+    color: #ff80c0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .signup-container {
+      padding: 20px;
+      width: 90%;
+    }
+  }
+  
