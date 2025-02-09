@@ -1,64 +1,75 @@
-/* Container */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    margin: 10px;
+    font-family: 'Arial', sans-serif;
+    padding: 50px;
+}
+
 .login-container {
     background: white;
     padding: 30px;
     border-radius: 10px;
     width: 100%;
+    max-height: 500px;
     max-width: 400px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
-    margin: 5vh auto;
     font-family: 'Arial', sans-serif;
     color: #333;
-  }
-  
-  .login-container h2 {
+}
+
+.login-container h2 {
     margin-bottom: 20px;
     color: #3498db;
-  }
-  
-  /* Form Styles */
-  .login-form {
+}
+
+
+.login-form {
     display: flex;
     flex-direction: column;
-  }
-  
-  .login-form .form-group {
+}
+
+.login-form .form-group {
     margin-bottom: 15px;
     text-align: left;
-  }
-  
-  .login-form label {
+}
+
+.login-form label {
     display: block;
     margin-bottom: 5px;
     color: #555;
-  }
-  
-  .login-form input {
+}
+
+.login-form input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 1rem;
-  }
-  
-  .login-form input::placeholder {
+}
+
+.login-form input::placeholder {
     color: #bbb;
-  }
-  
-  /* Password Wrapper */
-  .password-wrapper {
+}
+
+
+.password-wrapper {
     display: flex;
     align-items: center;
     position: relative;
-  }
-  
-  .password-wrapper input {
+}
+
+.password-wrapper input {
     width: 100%;
     padding-right: 50px;
-  }
-  
-  .password-wrapper .toggle-password {
+}
+
+.password-wrapper .toggle-password {
     background: none;
     border: none;
     color: #3498db;
@@ -66,18 +77,18 @@
     right: 10px;
     cursor: pointer;
     font-size: 0.9rem;
-  }
-  
-  /* Error Message */
-  .error-message {
+}
+
+
+.error-message {
     color: red;
     font-size: 0.9rem;
     margin-bottom: 10px;
     text-align: left;
-  }
-  
-  /* Login Button */
-  .login-button {
+}
+
+
+.login-button {
     background-color: #3498db;
     color: white;
     border: none;
@@ -86,53 +97,61 @@
     cursor: pointer;
     font-size: 1rem;
     margin-top: 10px;
-  }
-  
-  .login-button:hover {
+}
+
+.login-button:hover {
     background-color: #2980b9;
     transition: background-color 0.3s ease;
-  }
-  
-  /* Forgot Password Link */
-  .forgot-password-link {
+}
+
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.forgot-password-link {
     color: #3498db;
     text-decoration: none;
     font-size: 0.9rem;
-  }
-  
-  .forgot-password-link:hover {
+}
+
+.forgot-password-link:hover {
     text-decoration: underline;
-  }
-  
-  /* Signup Link */
-  .signup-link {
+}
+
+
+.signup-link {
     margin-top: 15px;
-  }
-  
-  .signup-link a {
+}
+
+.signup-link a {
     color: #f472b6;
     text-decoration: none;
     font-weight: bold;
-  }
-  
-  .signup-link a:hover {
+}
+
+.signup-link a:hover {
     text-decoration: underline;
     color: #ff80c0;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 480px) {
+}
+
+
+@media (max-width: 480px) {
     .login-container {
-      padding: 20px;
-      width: 90%;
+        padding: 20px;
+        width: 90%;
     }
-  
+
     .form-actions {
-      flex-direction: column;
+        flex-direction: column;
+        align-items: flex-start;
     }
-  
+
     .forgot-password-link {
-      margin-top: 10px;
+        margin-top: 10px;
     }
-  }
-  
+}

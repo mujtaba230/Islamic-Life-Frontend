@@ -1,10 +1,11 @@
-/* Signup Page Container */
+
 .signup-container {
     background: white;
     padding: 40px;
     border-radius: 12px;
     width: 100%;
     max-width: 400px;
+    max-height: 700px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin: 5vh auto;
@@ -17,7 +18,7 @@
     margin-bottom: 20px;
   }
   
-  /* Form Styles */
+
   .signup-form {
     display: flex;
     flex-direction: column;
@@ -48,7 +49,7 @@
     color: #bbb;
   }
   
-  /* Password Visibility Toggle */
+
   .password-wrapper {
     display: flex;
     align-items: center;
@@ -70,7 +71,7 @@
     font-size: 0.9rem;
   }
   
-  /* Error Message */
+
   .error-message {
     color: red;
     font-size: 0.9rem;
@@ -78,7 +79,7 @@
     text-align: left;
   }
   
-  /* Signup Button */
+
   .signup-button {
     background-color: #3498db;
     color: white;
@@ -95,7 +96,7 @@
     transition: background-color 0.3s ease;
   }
   
-  /* Login Link */
+
   .login-link {
     margin-top: 15px;
   }
@@ -111,7 +112,7 @@
     color: #ff80c0;
   }
   
-  /* Responsive Design */
+
   @media (max-width: 480px) {
     .signup-container {
       padding: 20px;
